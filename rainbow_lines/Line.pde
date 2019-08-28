@@ -1,17 +1,27 @@
 class Line {
   
   color c;
+  int red = 255;
+  int green = 0;
+  int blue = 0;
   float x1 = width;
   float y1 = 0;
   float x2 = width;
   float y2 = height;
   float xspeed;
   
-  Line() {
+  Line() {//default red
     strokeWeight(24);
-    c = color(255, 0, 0);
+    c = color(#ff0000);
     stroke(c);
-    xspeed = 5;
+    xspeed = 1;
+  }
+  
+ Line(color aColor) {//custom color as hex value
+    strokeWeight(24);
+    c = color(aColor);
+    stroke(c);
+    xspeed = 1;
   }
   
   void display() {
