@@ -3,7 +3,7 @@ void setup() {
   background(255);
  //fill(0, 102);
  
-  /*
+  
   for(int i = 0; i < random(3, 5); i++)//generate vertical lines
   {
     float x1 = random(0, width);
@@ -25,7 +25,7 @@ void setup() {
     strokeWeight(5);
     line(x1, y1, x2, y2);
   }
-  */
+  
   
   //calculate area of the whole canvas
   //assign it to a number

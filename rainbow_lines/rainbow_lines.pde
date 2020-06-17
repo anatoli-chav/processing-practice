@@ -2,7 +2,7 @@ ArrayList<Line> lines = new ArrayList<Line>();
 Line prevLine;
 void setup()
 {
-  size(1500,500);
+  size(1200,500);
   lines.add(new Line());
   
   prevLine = lines.get(0);
