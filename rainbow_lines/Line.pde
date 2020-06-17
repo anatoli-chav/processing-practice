@@ -10,14 +10,16 @@ class Line {
   float y2 = height;
   float xspeed;
   
+  
+  
   Line() {//default red
-    strokeWeight(24);
-    c = color(#ff0000);
+    strokeWeight(24); 
+    c = color(255, 0, 0);
     stroke(c);
     xspeed = 1;
   }
   
- Line(color aColor) {//custom color as hex value
+ Line(color aColor) {
     strokeWeight(24);
     c = color(aColor);
     stroke(c);
